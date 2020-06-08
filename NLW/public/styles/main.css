@@ -1,0 +1,41 @@
+    :root{
+        --title-color: #322153; /* declaração de variavel, root é a raiz do css */
+        --primary-color: #34cb69;
+    }
+
+    *{
+        margin: 0; /* o asterisco é a generalização aplica em tudo a formatação */
+        padding: 0;
+        box-sizing: border-box;/*alinhamento de caixa pela borda*/
+    }
+    
+    html{
+            font-family: Roboto, sans-serif;
+        }
+
+
+    body{
+        background:#f0f0f5; 
+        
+        
+     }
+
+     a{
+         text-decoration: none;
+     }
+
+     h1,h2,h3,h4,h5,h6{
+         font-family:Ubunto,sans-serif;
+         color:var(--title-color);
+     }
+
+    /*
+    box model caixa, display, height,width,border,postion align 
+    and all
+    */
+    
+
+    
+    
+
+   
